@@ -21,12 +21,12 @@ def nxp_(p,q):
 	val = nand_(p,q)
 	return nand_(p,val)
 
-#XP
+#XQ
 def xq_(p,q):
 	val = nand_(p,q)
 	return and_(q,val)
 
-#NXP
+#NXQ
 def nxq_(p,q):
 	val = nand_(p,q)
 	return nand_(q,val)
